@@ -1,0 +1,64 @@
+
+body {
+    color: #8f8d8b;
+    background-color: #95d9e8;
+}
+
+h1 {
+    color: #ffe7bd;
+    text-align: center;
+    font-size: 100px;
+}
+
+.intro {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 1fr; 
+    padding-bottom: 150px;
+   }
+   
+.iceskating {
+    height: 400px;
+    width: auto;
+    margin: auto;
+   }
+   
+.blurb {
+    margin-right: 200px;
+     font-size: 40px;
+   }
+.gallery {
+    background-color: #f2ebdf;
+    --gap: 16px;
+    --num-cols: 3;
+    --row-height: auto;
+    box-sizing: border-box;
+    padding: var(--gap);
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+}
+h2 {
+    color: #ffe7bd;
+    text-align: center;
+    font-size: 50px;
+}
+.cookies {
+    background-color: #f2ebdf;
+    --gap: 16px;
+    --num-cols: 3;
+    box-sizing: border-box;
+    padding: var(--gap);
+    display: grid;
+    grid-template-columns: repeat(var(--num-cols), 1fr);
+}
+p {
+    font-size: 20px;
+}
+.footer {
+    background-color: #ffe7bd;
+    width: auto;
+    height: auto;
+    text-align: center;
+    align-items: center;
+}
+
